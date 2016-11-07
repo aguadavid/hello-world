@@ -1,2 +1,3 @@
 # hello-world
-a place to store ideas and test concepts
+
+This repository is a place for me to store ideas and test concepts
