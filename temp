@@ -1,0 +1,9 @@
+$endpoint = "https://api.powerbi.com/beta/afd86049-248c-4f22-a27c-8886c94f3a74/datasets/4c5d3971-1f42-4aef-9bf8-99850509064f/rows?key=Wyc8lkvwKvRiS23DAd9OfdIDYYA1%2Fxz0D6U53mhjoxeSHtitE1L99yDV5Ay6SkIxPjxL%2F66E5hIp9JaoY5oY%2Fw%3D%3D"
+$payload = @{
+"Timestamp" ="2020-08-15T18:09:21.712Z"
+"User" ="AAAAA555555"
+"Computer" ="AAAAA555555"
+"Latency" =98.6
+}
+Invoke-RestMethod -Method Post -Uri "$endpoint" -Body (ConvertTo-Json @($payload))
+
